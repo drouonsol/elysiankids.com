@@ -7,8 +7,8 @@ const Footer = () => {
     return (
 
   
-      <div className="footer" style={{justifyContent:"center",marginTop:"5vh",padding:"50px",backgroundColor:"transparent"}}>
-      <footer class="py-5  fixed bottom" style={{height:"5vh", marginBottom:"5vh",justifySelf:"center"}}>
+      <div className="footer" style={{justifyContent:"center",marginTop:"5vh",padding:"50px",backgroundColor:"transparent",marginTop:"10.2vh"}}>
+      <footer class="py-5  fixed bottom" style={{height:"5vh",justifySelf:"center"}}>
       <div style={{float:"left", fontSize:"13px", fontFamily:"Oswald", color:"black"}}>Infamous Wolves © 2022</div>
         <div style={{float:"right", fontSize:"13px", fontFamily:"Oswald"}} className='footersocials'>
           

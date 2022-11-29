@@ -59,19 +59,22 @@ $button-transition-timing: 400ms;
     //background: linear-gradient(292deg, rgb(207, 146, 53) 0%, rgb(166, 99, 100) 50%, rgb(131, 70, 189) 100%);
  
     transition: 500ms;
-    color: linear-gradient(135deg,#900ce9,#f94e9b);
+    color: #9e43a1;
     animation-duration: 0ms;
-    color: rgb(255, 255, 255);
 
 
-    background: linear-gradient(135deg,#900ce9,#f94e9b);
+
+    background: linear-gradient(135deg,#200135,#200135);
   }
+
+
+
     &:hover {
      // background: linear-gradient(292deg, rgb(207, 146, 53,0.9) 0%, rgb(166, 99, 100,0.9) 50%, rgb(131, 70, 189,0.9) 100%);
 
      color: rgb(255, 255, 255);
-      background: linear-gradient(135deg,#900ce9,#f94e9b);
-  
+     background: linear-gradient(135deg,#200135,#200135);
+     color: #9e43a1;
   
       width: 345px;
       height: 145px;

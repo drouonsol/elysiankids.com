@@ -92,7 +92,7 @@ text-align: center;
 justify-content: center;
 
 margin: 10px;
-color: #c2c2c2;
+color: black;
 font-weight: 800;
 text-decoration: none;
 transition: color 0.1s ease-out;
@@ -100,14 +100,43 @@ font-size: 18px;
 width: fit-content;
 border-radius: 2px;
 padding: 5px;
-
+width: 100px;
 padding-left: 10px;
 padding-right: 10px;
-background-color: rgba(255, 255, 255, 0.25);
+background-color: rgba(0,0,0,.25);
 text-transform: uppercase;
 
 
 `;
+
+
+export const NavbarLinkExtendedDosabled = styled(Link)`
+padding: 30px;
+border-radius: 2px;
+
+font-family: Oswald;
+text-decoration: none;
+text-align: center;
+justify-content: center;
+
+margin: 10px;
+color: #000000a2;
+font-weight: 800;
+text-decoration: none;
+transition: color 0.1s ease-out;
+font-size: 18px;
+width: fit-content;
+border-radius: 2px;
+padding: 5px;
+width: 100px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: rgba(0,0,0,.1);
+text-transform: uppercase;
+
+
+`;
+
 
 export const Logo = styled.img`
   margin-top: 3px;
@@ -140,7 +169,7 @@ export const NavbarExtendedContainer = styled.div`
   overflow: hidden;
   height: 100%;
   overflow: hidden;
-
+  
 
 
 

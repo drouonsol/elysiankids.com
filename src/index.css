@@ -9,11 +9,21 @@
   src: url(./assets/AmaticSC-Bold.ttf)
 }
 
+
+@font-face {
+  font-family: Ginto;
+  src: url(https://eng.m.fontke.com/download/?hash=hMI%2FjduIguLpdrV0LdOIbyVOXN68dZsJhSI0jfxH7Xfdw%2B2%2Fh2JEY1hDl0%2FkgPDYXAaX%2FiIj0phvxB6CeOTQT2LcnWSLuRtsglA%2FJVF5WuZ3b9FP%2BDUIYfuUoPUmdLjO&name=Ginto+Nord+Regular.woff2.ttf);
+}
+
 @font-face {
   font-family: "PermanentMarker";
   src: url(./assets/Permanent_Marker/PermanentMarker-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Pieces NFI";
+  src: url(./assets/pieces-nfi-font/PiecesNfi-LrOn.ttf);
+}
 
 .chnghover:hover {
   opacity: 0;
@@ -1576,5 +1586,22 @@ a {
   color: black;
   transition: 2;
 }
+
+
+
+.indextext  {
+  font-size: 700%;
+
+}
+
+@media (max-width: 850px) {
+  .indextext  {
+    font-size: 300%;
+  
+  }
+}
+
+
+
 
 
