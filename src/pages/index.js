@@ -4,6 +4,9 @@ import { Helmet } from 'react-helmet';
 import { NavbarSocialLinks } from "../styles/Navbar.style";
 import Navbar from '../components/Navbar';
 import "../index.scss";
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+
+
 
 const Home = () => {
 
@@ -45,7 +48,7 @@ return (
 <div style={{verticalAlign:"middle", padding :"21vh 0",paddingTop:"30vh"}}>
       <h1 className="indextext" style={{fontFamily:"Pieces NFI",}}>Elysian Kids</h1>
       <a href="https://twitter.com/infwlsnft" target="_blank" class="button button-arrow bg-blue">
-      Twitter &nbsp;
+      Twitter <a className="space">&nbsp;</a>
       <svg viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
         <g class="arrow-head">
           <path d="M1 1C4.5 4 5 4.38484 5 4.5C5 4.61516 4.5 5 1 8" stroke="currentColor" stroke-width="2"/>
@@ -55,9 +58,8 @@ return (
         </g>
       </svg>            
     </a>
-    <a href="https://twitter.com/infwlsnft" target="_blank" class="button button-arrow bg-magiceden">
-      
-      <img width="110px" src="https://static.infamouswolves.com/me.fadcf285a31df15afc4e.png" /> &nbsp;
+    <a href="https://magiceden.io/marketplace/ekids" target="_blank" class="button button-arrow bg-magiceden">
+    MagicEden &nbsp;
       <svg viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg"  class="arrow-icon">
         <g class="arrow-head">
           <path d="M1 1C4.5 4 5 4.38484 5 4.5C5 4.61516 4.5 5 1 8" stroke="currentColor" stroke-width="2"/>
@@ -78,34 +80,18 @@ return (
 
 
 
-<section style={{height:"100vh",margin:"0% 5%"}}>
-<div className="grid-flex" style={{margin:"10vh 0"}}>
+<section style={{height:"60vh",padding:"0% 5%",}}>
+<div className="grid-flex" style={{margin:" 0"}}>
     <div className="col col-text" style={{borderRadius:"15px"}}>
-    ;<blockquote className="twitter-tweet">
-  <p lang="en" dir="ltr">
-    Sunsets don't get much better than this one over{" "}
-    <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">
-      @GrandTetonNPS
-    </a>
-    .{" "}
-    <a href="https://twitter.com/hashtag/nature?src=hash&ref_src=twsrc%5Etfw">
-      #nature
-    </a>{" "}
-    <a href="https://twitter.com/hashtag/sunset?src=hash&ref_src=twsrc%5Etfw">
-      #sunset
-    </a>{" "}
-    <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
-  </p>
-  — US Department of the Interior (@Interior){" "}
-  <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">
-    May 5, 2014
-  </a>
-</blockquote>
+    <TwitterTweetEmbed    options={{width: 1000}}
+  tweetId={'1597647325278916608'}
+/>
+
 
     </div>
     <div className="col col-text col-left">
       <div className="Aligner-item">
-        <h1 style={{fontSize:"350%"}}>THE START OF A NEW ERA
+        <h1 style={{fontSize:"350%",}}>THE START OF A NEW ERA
    
         </h1>
       </div>

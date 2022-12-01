@@ -1591,7 +1591,7 @@ a {
 
 .indextext  {
   font-size: 700%;
-
+  padding: 5%;
 }
 
 @media (max-width: 850px) {

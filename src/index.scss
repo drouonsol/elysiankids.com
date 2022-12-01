@@ -153,6 +153,8 @@ $button-transition-timing: 400ms;
   }
 }
 
+
+
   .buttonmobile {
     border-radius: 2px;
     width: 200px;
@@ -269,3 +271,167 @@ $button-transition-timing: 400ms;
        transform: translate3d(0, 0, 1px) rotate(360deg);
      }
    }
+
+
+
+@media (max-width: 850px) {
+
+  
+.button {
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Oswald;
+   text-transform: uppercase;
+  padding: 10px 30px;
+   text-decoration: none;
+   transition:  10ms ease-in-out;
+  
+  &:hover {
+    background-color: #e6e6e6;
+  }
+  
+  &.svg {
+    display: none;
+  }
+
+  &:not(:first-of-type) {
+    margin-left: 15px;
+  }
+  
+  &.bg-blue {
+  
+    //background: linear-gradient(292deg, rgb(207, 146, 53) 0%, rgb(166, 99, 100) 50%, rgb(131, 70, 189) 100%);
+ 
+    transition: 500ms;
+    color: rgba($color: #ffffff, $alpha: .9);
+    animation-duration: 0ms;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    
+    &:hover {
+     // background: linear-gradient(292deg, rgb(207, 146, 53,0.9) 0%, rgb(166, 99, 100,0.9) 50%, rgb(131, 70, 189,0.9) 100%);
+     background: black;
+     color: rgb(255, 255, 255);
+      background: black;
+      border: 1px solid black;
+  
+      width: 345px;
+      height: 145px;
+      
+    }
+  }
+
+  &.bg-magiceden img {
+    display: none;
+
+  }
+
+  &.bg-magiceden {
+  
+    //background: linear-gradient(292deg, rgb(207, 146, 53) 0%, rgb(166, 99, 100) 50%, rgb(131, 70, 189) 100%);
+ 
+    transition: 500ms;
+    color: #9e43a1;
+    animation-duration: 0ms;
+
+
+
+    background: linear-gradient(135deg,#200135,#200135);
+  }
+
+
+
+    &:hover {
+     // background: linear-gradient(292deg, rgb(207, 146, 53,0.9) 0%, rgb(166, 99, 100,0.9) 50%, rgb(131, 70, 189,0.9) 100%);
+
+     color: rgb(255, 255, 255);
+     background: linear-gradient(135deg,#200135,#200135);
+     color: #9e43a1;
+  
+      width: 345px;
+      height: 145px;
+      
+    }
+  
+
+
+
+  &.bg-stuck {
+  
+    //background: linear-gradient(292deg, rgb(207, 146, 53) 0%, rgb(166, 99, 100) 50%, rgb(131, 70, 189) 100%);
+ 
+    transition: 1s;
+    color: linear-gradient(135deg,#a1f4ff,#4ef9c6);
+    animation-duration: 0ms;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  margin: 30px;
+  transition: transform 2s ease-in-out;
+   background: linear-gradient(135deg,#f5c62d,#4ef9c6);
+  
+    &:hover {
+     // background: linear-gradient(292deg, rgb(207, 146, 53,0.9) 0%, rgb(166, 99, 100,0.9) 50%, rgb(131, 70, 189,0.9) 100%);
+     transform:  translate(0px,-5px); 
+     color: rgb(255, 255, 255);
+     background: linear-gradient(135deg,#f5c62d9f,#4ef9c69f);
+     transition: transform 2s ease-in-out;
+
+      width: 345px;
+      height: 145px;
+      
+    }
+  }
+}
+
+
+.memobile {
+  display: none;
+  }
+.button-arrow {
+  
+  .arrow-icon {
+    overflow: visible;
+    margin-left: 3px;
+    width: 10px;
+  margin-bottom: 1px;
+  display: none;
+  }
+  
+  .arrow-head {
+   
+    transition: transform 400ms ease-in-out;
+  }
+  
+  .arrow-body {
+    opacity: 0;
+    transform: scaleX(1);
+    transition: transform 400ms ease-in-out, opacity 400ms ease-in-out;
+  }
+  
+  &:hover {
+    .arrow-head {
+     transform: translateX(3px);
+    }
+    
+    .arrow-body {
+      opacity: 1;
+      transform: scaleX(2);
+    }
+  }
+  
+
+}
+.space {
+  display: none;
+}
+
+
+.memobile {
+display: block;
+}
+
+}
