@@ -613,30 +613,48 @@ h1 {
    align-items: center;
    flex-wrap: wrap;
    color: black;
+   justify-content: center;
 }
 .container .card
 {
    width: 37vh;
-   height: 47vh;
-  border-radius: 2px;
+  border-radius: 20px;
     padding: 0px 0px;
    margin: 20px;
    background: #ffffff;
   color: rgb(255, 255, 255);
-  background: black;
+  background: rgb(0, 0, 0);
+  justify-content: center;
+  padding-bottom: 1%;
+}
+
+
+.container .cardstats
+{
+   width: 37vh;
+  border-radius: 20px;
+    padding: 5%;
+   margin: 20px;
+   background: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  justify-content: center;
 
 }
+
 
 
 .roadmap .container .card {
     box-shadow: none;
     border-radius: 5px;
+    justify-content: center;
+
 }
 
 
 .container .card .content
 {
-
+  justify-content: center;
    display: space-evenly;
    justify-content: left;
    align-items: center;
@@ -645,11 +663,13 @@ h1 {
 }
 .container .card .content .imgBx
 {
-   width: 33vh;
-   height: 30vh;
-  margin-top: 20px;
+   width: 37vh;
+   height: 37vh;
+  overflow: hidden;
    position: relative;
    margin-bottom: 20px;
+   border-top-left-radius: 18px;
+   border-top-right-radius: 18px;
    overflow: hidden;
 }
 .container .card .content .imgBx img
@@ -668,7 +688,8 @@ h1 {
    font-weight: bold;
   align-self: left;
    letter-spacing: 1px;
-   text-align: left;
+   text-align: center;
+
 }
 .container .card .content .contentBx h5
 {
@@ -676,7 +697,7 @@ h1 {
    font-size: 1.2rem;
    font-weight: bold;
    text-align: center;
-   text-align: left;
+   text-align: center;
 }
 .container .card .content .sci
 {
@@ -1598,10 +1619,57 @@ a {
   .indextext  {
     font-size: 300%;
   
+  
   }
 }
 
 
+.utilitybutton {
+  
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 30px;
+  border-radius: 100px;
+}
+
+
+.utilitybutton:hover {
+  opacity: 60%;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 30px;
+  border-radius: 100px;
+}
 
 
 
+.utilitybuttonrejected {
+  
+  cursor: not-allowed;
+  opacity: 50%;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 30px;
+  border-radius: 100px;
+}
+
+
+.wwab {
+  text-transform: uppercase;
+  font-size: 350%;
+}
+
+.wwabsmall {
+  text-transform: uppercase;
+  font-size: 150%;
+  opacity: 70%;
+}
+
+.flip180  { -moz-transform: scaleY(-1);
+-o-transform: scaleY(-1);
+-webkit-transform: scaleY(-1);
+transform: scaleY(-1);
+}
