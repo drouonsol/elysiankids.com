@@ -8,8 +8,8 @@ import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterH
 import Axios from 'axios';
 import { useState } from 'react';
 
+
 const Home = () => {
- 
 
 
 
@@ -43,19 +43,24 @@ const Home = () => {
   };
 
 
+
   const [floorPrice,setfloorPrice,] = useState("")
   const [listings,setlistings,] = useState("")
   const [collectionvolume,setcollectionVolume] = useState("")
 
 
 
-Axios.get("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/").then((res) => {
+Axios.get("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/", {
+  'ME-Pub-API-Metadata': {"paging":true}
+}).then((res) => {
   setfloorPrice(res.data.floorPrice/lamplortspersolana)
   setlistings(res.data.listedCount)
   setcollectionVolume(Math.round((res.data.volumeAll/lamplortspersolana) *10.00)/10.00);
 });
 
  const marketcap = 3333*floorPrice; 
+
+
 
 return (
 
