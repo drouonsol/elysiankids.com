@@ -13,7 +13,6 @@ const Home = () => {
 
 
 
-
   const lamplortspersolana = 1000000000;
   var totalBGs = 0;
   var rnd = Math.floor(Math.random() * totalBGs) + 0; // 1 - 15
