@@ -51,21 +51,21 @@ const Home = () => {
 
 
 Axios.get("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/", {
-  headers: {  
-
-
-
-
-  }
+  "acces-control-allow-origin" : "*"
 }).then((res) => {
   setfloorPrice(res.data.floorPrice/lamplortspersolana)
   setlistings(res.data.listedCount)
   setcollectionVolume(Math.round((res.data.volumeAll/lamplortspersolana) *10.00)/10.00);
 });
 
- const marketcap = 3333*floorPrice; 
 
 
+ let marketcap = 3333*floorPrice; 
+
+
+if (marketcap == 0) {
+  marketcap = "fail"
+}
 
 return (
 
@@ -323,7 +323,7 @@ return (
   </section>
 
 
-  <h1 className="probwarning" style={{textTransform:"uppercase"}}>And just a heads up ... </h1>
+  <div className="probwarning" style={{textTransform:"uppercase"}}></div>
   <section className="fuckupsection" style={{borderRadius:"50px",height:"auto"}}>
   <h1 className="prob" style={{padding:"0",margin:"0%"}}>WE WILL PROBABLY</h1>
   <h1 className="prob2" style={{padding:"0",margin:"0%"}}>BREAK THINGS</h1>

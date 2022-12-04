@@ -1693,18 +1693,18 @@ transform: scaleY(-1);
   font-size: 450%;
   text-align: left;
   padding: 0%;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 
 .prob2 {
   font-size: 1250%;
   text-align: left;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .fuckupsection {
-  background: black;
+  background: rgb(255, 255, 255,0);
   padding: 10vh;
   margin: 0vh 20vh 0vh 20vh;
   margin-bottom: 10vh;
@@ -1716,7 +1716,7 @@ transform: scaleY(-1);
     font-size: 150%;
     text-align: center;
     padding: 0%;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   .probwarning {
@@ -1732,7 +1732,7 @@ transform: scaleY(-1);
   .prob2 {
     font-size: 525%;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   .fuckupsection {
