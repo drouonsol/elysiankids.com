@@ -631,13 +631,13 @@ h1 {
 
 .container .cardstats
 {
-   width: 37vh;
+   width: 45vh;
   border-radius: 20px;
-    padding: 5%;
+    padding: .5% 5%;
    margin: 20px;
    background: #ffffff;
   color: rgb(0, 0, 0);
-  border: 2px solid black;
+
   justify-content: center;
 
 }
@@ -1127,11 +1127,11 @@ a {
 
 
 
-@media (min-width:850px) {
-  .socialmedialinkmbl {
-    display: none;
-  }
+@media (max-width:850px) {
 
+.socialmedialink {
+  display: none;
+}
 
 }
 
@@ -1672,4 +1672,72 @@ a {
 -o-transform: scaleY(-1);
 -webkit-transform: scaleY(-1);
 transform: scaleY(-1);
+}
+
+
+
+.datatext {
+  font-size: 30 0%;
+} 
+
+.probwarning {
+  font-size: 450%;
+  text-align: center;
+  padding: 0%;
+  color: rgb(0, 0, 0);
+  margin: 5vh 20vh;
+  margin-top: 25vh;
+}
+
+.prob {
+  font-size: 450%;
+  text-align: left;
+  padding: 0%;
+  color: white;
+}
+
+
+.prob2 {
+  font-size: 1250%;
+  text-align: left;
+  color: white;
+}
+
+.fuckupsection {
+  background: black;
+  padding: 10vh;
+  margin: 0vh 20vh 0vh 20vh;
+  margin-bottom: 10vh;
+  font-family: Nf;
+}
+
+@media (max-width: 900px) {
+  .prob {
+    font-size: 150%;
+    text-align: center;
+    padding: 0%;
+    color: white;
+  }
+  
+  .probwarning {
+    font-size: 250%;
+    text-align: center;
+    padding: 0%;
+    color: rgb(0, 0, 0);
+    margin: 2vh;
+    margin-top: 20vh;
+  }
+  
+  
+  .prob2 {
+    font-size: 525%;
+    text-align: center;
+    color: white;
+  }
+  
+  .fuckupsection {
+    background: black;
+    padding: 10vh 5vh;
+    margin: 0vh 3vh 0vh;
+  }
 }
