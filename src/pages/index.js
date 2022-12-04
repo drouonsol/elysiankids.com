@@ -52,10 +52,9 @@ const Home = () => {
 
 Axios.get("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/", {
   headers: {  
-    'X-Mashape-Key': 'required',
-    'Content-Type': 'application/x-www-form-urlencoded',
-    'Accept': 'application/json',
-    'ME-Pub-API-Metadata' : "{paging:true}"
+
+
+
 
   }
 }).then((res) => {
@@ -75,7 +74,7 @@ return (
 	<div style={{ display: "flex",height:"70vh" ,justifyContent:"center",verticalAlign:"middle",textAlign:"center",alignItems:"center",verticalAlign:"middle" }}>
   <Helmet>
       <title>Home</title>
-      
+      <add name="Access-Control-Allow-Headers" value="Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Origin" />
       </Helmet>
 
     <td>
