@@ -1,8 +1,7 @@
 {
   "name": "elysiankidsweb",
   "version": "0.1.0",
-  "proxy" : "https://api.magiceden.dev",
-  "private": true,
+  "proxy" : "api-mainnet.magiceden.dev",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
