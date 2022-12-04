@@ -51,7 +51,13 @@ const Home = () => {
 
 
 Axios.get("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/", {
-  'ME-Pub-API-Metadata': {"paging":true}
+  headers: {  
+    'X-Mashape-Key': 'required',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Accept': 'application/json',
+    'ME-Pub-API-Metadata' : "{paging:true}"
+
+  }
 }).then((res) => {
   setfloorPrice(res.data.floorPrice/lamplortspersolana)
   setlistings(res.data.listedCount)

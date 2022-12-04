@@ -111,10 +111,10 @@ function Navbar() {
         <NavbarExtendedContainer style={{overflow:"hidden"}}>
           <NavLinkContainer style={{}}>
 <NavbarLinkExtended onClick={refreshPage} to="/home"> Home</NavbarLinkExtended>
-<NavbarLinkExtended onClick={refreshPage} to="/about">About</NavbarLinkExtended>
-<NavbarLinkExtendedDosabled onClick={refreshPage} to="/thevision">DOCS</NavbarLinkExtendedDosabled>
-<NavbarLinkExtendedDosabled onClick={refreshPage} to="/lore">RAFFLES</NavbarLinkExtendedDosabled>
-<NavbarLinkExtendedDosabled onClick={refreshPage1} to="/whitepaper">STAKING</NavbarLinkExtendedDosabled>
+
+<NavbarLinkExtendedDosabled  >DOCS</NavbarLinkExtendedDosabled>
+<NavbarLinkExtendedDosabled >RAFFLES</NavbarLinkExtendedDosabled>
+<NavbarLinkExtendedDosabled >STAKING</NavbarLinkExtendedDosabled>
 
 </NavLinkContainer>
 <NavbarExtFooter>
