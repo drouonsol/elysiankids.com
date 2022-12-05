@@ -50,8 +50,11 @@ const Home = () => {
 
 
   fetch("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/",{headers: {
-
-   }
+    "Accept": "application/json",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "*"
+   },
+  mode: "no-cors"
   })
   .then((res) => res.json())
   .then((data) => {
