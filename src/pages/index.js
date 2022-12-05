@@ -49,7 +49,10 @@ const Home = () => {
   const [collectionvolume,setcollectionVolume] = useState("")
 
 
-  fetch("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/")
+  fetch("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/",{headers: {
+
+   }
+  })
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
