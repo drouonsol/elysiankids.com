@@ -50,11 +50,11 @@ const Home = () => {
 
 
   fetch("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats",{headers: {
-    // "Accept": "application/json",
+    "Accept": "application/json",
     // "Access-Control-Allow-Origin": "*",
-    // "Access-Control-Allow-Methods": "*"
+      // "Access-Control-Allow-Methods": "https://api-mainnet.magiceden.dev"
    },
-  //  mode: "no-cors"
+  // mode: "no-cors"
   })
   .then((res) => res.json())
   .then((data) => {
@@ -80,7 +80,7 @@ return (
 	<div style={{ display: "flex",height:"70vh" ,justifyContent:"center",verticalAlign:"middle",textAlign:"center",alignItems:"center",verticalAlign:"middle" }}>
   <Helmet>
       <title>Home</title>
-      <add name="Access-Control-Allow-Headers" value="Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Origin" />
+  
       </Helmet>
 
     <td>
