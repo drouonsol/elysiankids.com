@@ -51,9 +51,12 @@ const Home = () => {
 
 
 Axios.get("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/", { 
+  
 headers: {
-  "acces-control-allow-origin" : "*",
-  "paging" : "true"
+  "acces-control-allow-origin" : "https://api-mainnet.magiceden.dev",
+  "paging" : "true",
+  'X-Mashape-Key': 'required',
+  'Accept': 'application/json',
 }
 }).then((res) => {
   setfloorPrice(res.data.floorPrice/lamplortspersolana)
