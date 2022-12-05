@@ -49,20 +49,11 @@ const Home = () => {
   const [collectionvolume,setcollectionVolume] = useState("")
 
 
-
-Axios.get("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/", { 
-  
-headers: {
-  "acces-control-allow-origin" : "http://api-mainnet.magiceden.dev",
-  "paging" : "true",
-  'X-Mashape-Key': 'required',
-  'Accept': 'application/json',
-}
-}).then((res) => {
-  setfloorPrice(res.data.floorPrice/lamplortspersolana)
-  setlistings(res.data.listedCount)
-  setcollectionVolume(Math.round((res.data.volumeAll/lamplortspersolana) *10.00)/10.00);
-});
+  fetch("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/")
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+  });
 
 
 
