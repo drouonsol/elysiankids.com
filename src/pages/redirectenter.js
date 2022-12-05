@@ -29,7 +29,7 @@ return (
 	<div style={{ display: "flex",height:"90vh",justifyContent:"center",verticalAlign:"middle",textAlign:"center",alignItems:"center",verticalAlign:"middle" }}>
   <Helmet>
       <title>Redirecting</title>
-      
+      <link rel="icon" href="https://elysiankids-com.vercel.app/static/media/elysian.7d77471c57d669515068.png" type="image/icon type" />
       </Helmet>
 
     <div>

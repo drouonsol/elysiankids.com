@@ -82,7 +82,7 @@ return (
 	<div style={{ display: "flex",height:"70vh" ,justifyContent:"center",verticalAlign:"middle",textAlign:"center",alignItems:"center",verticalAlign:"middle" }}>
   <Helmet>
       <title>Home</title>
-  
+      <link rel="icon" href="https://elysiankids-com.vercel.app/static/media/elysian.7d77471c57d669515068.png" type="image/icon type" />
       </Helmet>
 
     <td>
