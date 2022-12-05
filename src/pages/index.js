@@ -7,6 +7,7 @@ import "../index.scss";
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 import Axios from 'axios';
 import { useState } from 'react';
+import axios from 'axios'
 
 
 const Home = () => {
@@ -43,13 +44,14 @@ const Home = () => {
   };
 
 
+  
 
   const [floorPrice,setfloorPrice,] = useState("")
   const [listings,setlistings,] = useState("")
   const [collectionvolume,setcollectionVolume] = useState("")
 
 
-  Axios.get("https://api-mainnet.magiceden.io/v2/collections/ekids/stats/", {
+  axios.get("https://api-mainnet.magiceden.io/v2/collections/ekids/stats/", {
     headers: {
         "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
         "User-Agent": "Mozilla/5.0",
