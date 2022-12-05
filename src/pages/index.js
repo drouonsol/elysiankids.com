@@ -50,7 +50,7 @@ const Home = () => {
 
 
 
-Axios.get("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/", { 
+Axios.get("http://api-mainnet.magiceden.dev/v2/collections/ekids/stats/", { 
   
 headers: {
   "acces-control-allow-origin" : "https://api-mainnet.magiceden.dev",
