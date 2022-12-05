@@ -50,15 +50,18 @@ const Home = () => {
 
 
   fetch("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/",{headers: {
-    "Accept": "application/json",
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "*"
+    // "Accept": "application/json",
+    // "Access-Control-Allow-Origin": "*",
+    // "Access-Control-Allow-Methods": "*"
    },
-  mode: "no-cors"
+  //  mode: "no-cors"
   })
   .then((res) => res.json())
   .then((data) => {
-    console.log(data);
+    setfloorPrice(data.floorPrice);
+    console.log(data.floorPrice);
+    console.log("API WORKING")
+
   });
 
 
