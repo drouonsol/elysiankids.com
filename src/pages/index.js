@@ -49,7 +49,7 @@ const Home = () => {
   const [collectionvolume,setcollectionVolume] = useState("")
 
 
-  fetch("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats/",{headers: {
+  fetch("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats",{headers: {
     // "Accept": "application/json",
     // "Access-Control-Allow-Origin": "*",
     // "Access-Control-Allow-Methods": "*"
