@@ -49,18 +49,20 @@ const Home = () => {
   const [collectionvolume,setcollectionVolume] = useState("")
 
 
-  fetch("https://api-mainnet.magiceden.dev/v2/collections/ekids/stats",{headers: {
-  
-   },
-  // mode: "no-cors"
-  })
-  .then((res) => res.json())
-  .then((data) => {
-    setfloorPrice(data.floorPrice);
-    console.log(data.floorPrice);
-    console.log("API WORKING")
+  Axios.get("https://api-mainnet.magiceden.io/v2/collections/ekids/stats/", {
+    headers: {
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "User-Agent": "Mozilla/5.0",
+        'accept': 'application/json, text/plain, */*',
+ 'accept-language': 'en-US,en;q=0.9',
 
-  });
+
+    },
+    }).then((res) => {
+     console.log(res.data);
+    }).catch((err) => {
+     console.log(err.message);
+    });
 
 
 
