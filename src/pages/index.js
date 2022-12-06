@@ -320,10 +320,10 @@ return (
   </section>
 
 
-  <div className="probwarning" style={{textTransform:"uppercase"}}></div>
+  <h1 className="probwarning" style={{textTransform:"uppercase",}}>And on a final note</h1>
   <section className="fuckupsection" style={{borderRadius:"50px",height:"auto"}}>
   <h1 className="prob" style={{padding:"0",margin:"0%"}}>WE DON'T GIVE</h1>
-  <h1 className="prob2" style={{padding:"0",margin:"0%"}}>A FUCK</h1>
+  <h1 className="prob2" style={{padding:"0",margin:"0%"}}>A F*CK</h1>
   <a href='https://twitter.com/oursolsavior'><h1 className="prob3" style={{padding:"0",margin:"0%",textTransform:"uppercase",opacity:"50%"}}>drou</h1></a>
   </section>
 

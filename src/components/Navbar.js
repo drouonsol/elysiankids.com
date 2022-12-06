@@ -96,7 +96,7 @@ function Navbar() {
           </NavbarLinkContainer>
         </LeftContainer>
         <RightContainer>
-          <a href="/home"><Logo src={LogoImg}></Logo></a>
+          <a href="/home"><Logo src={LogoImg} style={{WebkitTransform:"scaleX(-1)", transform: "scaleX(-1)"}}></Logo></a>
         </RightContainer>
       </NavbarInnerContainer>
       {extendNavbar && (

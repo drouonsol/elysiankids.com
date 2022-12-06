@@ -1681,12 +1681,14 @@ transform: scaleY(-1);
 } 
 
 .probwarning {
-  font-size: 450%;
+  font-size: 150%;
   text-align: center;
   padding: 0%;
   color: rgb(0, 0, 0);
-  margin: 5vh 20vh;
-  margin-top: 25vh;
+  margin-top: 15vh;
+  font-family: "Oswald";
+  font-weight: 800;
+  opacity: 40%;
 }
 
 .prob {
@@ -1713,14 +1715,15 @@ transform: scaleY(-1);
 
 @media (max-width: 900px) {
   .prob {
-    font-size: 150%;
+    font-size: 250%;
     text-align: center;
     padding: 0%;
     color: rgb(0, 0, 0);
+    margin-top: 0%;
   }
   
   .probwarning {
-    font-size: 250%;
+    font-size: 150%;
     text-align: center;
     padding: 0%;
     color: rgb(0, 0, 0);
