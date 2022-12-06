@@ -451,7 +451,7 @@ text-transform: uppercase;
   background-position:center center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .grid-flex {
     height: 40em;
     display: -webkit-flex;
