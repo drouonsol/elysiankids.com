@@ -78,13 +78,13 @@ if (marketcap == 0) {
 return (
 
   <div className='backlndpage' style={{}}>
-    <Navbar />
-	<div style={{ display: "flex",height:"70vh" ,justifyContent:"center",verticalAlign:"middle",textAlign:"center",alignItems:"center",verticalAlign:"middle" }}>
+  
   <Helmet>
       <title>Home</title>
       <link rel="icon" href="https://elysiankids-com.vercel.app/static/media/elysian.7d77471c57d669515068.png" type="image/icon type" />
       </Helmet>
-
+      <Navbar />
+	<div style={{ display: "flex",height:"70vh" ,justifyContent:"center",verticalAlign:"middle",textAlign:"center",alignItems:"center",verticalAlign:"middle" }}>
     <td>
     <div class="" style={{height:"100%",justifyContent:"center",verticalAlign:"middle"}}>
 
@@ -267,7 +267,7 @@ return (
                     <div class="contentBx">
                         <h4 style={{fontSize:"175%", textTransform:"uppercase", fontFamily:"Oswald",}}>Hours Worked</h4>
                         <br/>
-                        <h1 className="datatext" style={{ textTransform:"uppercase", fontFamily:"Pieces NFI"}}>38 Hours</h1>
+                        <h1 className="datatext" style={{ textTransform:"uppercase", fontFamily:"Pieces NFI"}}>43 Hours</h1>
                 
                     </div>
                     <div class="sci">
@@ -322,9 +322,9 @@ return (
 
   <div className="probwarning" style={{textTransform:"uppercase"}}></div>
   <section className="fuckupsection" style={{borderRadius:"50px",height:"auto"}}>
-  <h1 className="prob" style={{padding:"0",margin:"0%"}}>WE WILL PROBABLY</h1>
-  <h1 className="prob2" style={{padding:"0",margin:"0%"}}>BREAK THINGS</h1>
-  <h1 className="prob" style={{padding:"0",margin:"0%",textTransform:"uppercase",opacity:"50%"}}>ALONG THE WAY</h1>
+  <h1 className="prob" style={{padding:"0",margin:"0%"}}>WE DON'T GIVE</h1>
+  <h1 className="prob2" style={{padding:"0",margin:"0%"}}>A FUCK</h1>
+  <a href='https://twitter.com/oursolsavior'><h1 className="prob3" style={{padding:"0",margin:"0%",textTransform:"uppercase",opacity:"50%"}}>drou</h1></a>
   </section>
 
       <div className='footermobileindex'>

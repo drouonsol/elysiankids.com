@@ -117,7 +117,7 @@ body {
   font-size: 50%;
 }
 
-@media (max-width: 850px)  {
+@media (max-width: 800px)  {
   .footersocials {
     justify-content: center;
     float:left;
@@ -451,7 +451,7 @@ text-transform: uppercase;
   background-position:center center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   .grid-flex {
     height: 40em;
     display: -webkit-flex;
@@ -1127,7 +1127,7 @@ a {
 
 
 
-@media (max-width:850px) {
+@media (max-width:700px) {
 
 .socialmedialink {
   display: none;
@@ -1691,7 +1691,7 @@ transform: scaleY(-1);
 
 .prob {
   font-size: 450%;
-  text-align: left;
+  text-align: center;
   padding: 0%;
   color: rgb(0, 0, 0);
 }
@@ -1699,7 +1699,7 @@ transform: scaleY(-1);
 
 .prob2 {
   font-size: 1150%;
-  text-align: left;
+  text-align: center;
   color: rgb(0, 0, 0);
 }
 
