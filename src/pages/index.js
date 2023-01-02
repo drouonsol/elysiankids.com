@@ -267,7 +267,7 @@ return (
                     <div class="contentBx">
                         <h4 style={{fontSize:"175%", textTransform:"uppercase", fontFamily:"Oswald",}}>Hours Worked</h4>
                         <br/>
-                        <h1 className="datatext" style={{ textTransform:"uppercase", fontFamily:"Pieces NFI"}}>43 Hours</h1>
+                        <h1 className="datatext" style={{ textTransform:"uppercase", fontFamily:"Pieces NFI"}}>326 Hours</h1>
                 
                     </div>
                     <div class="sci">
