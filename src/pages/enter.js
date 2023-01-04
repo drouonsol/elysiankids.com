@@ -88,22 +88,23 @@ return (
     <div style={{backgroundColor: "#4158D0",backgroundImage: [gradient],maxHeight:"100vh",minHeight:"fit-screen"
       }}>
       <Helmet><title>Welcome</title>      <link rel="icon" href="https://elysiankids-com.vercel.app/static/media/elysian.7d77471c57d669515068.png" type="image/icon type" /> </Helmet>
-  <NavbarLink2 onClick={whitepaper} to="/redirect">
+  <NavbarLink2>
 	<section style={{color:"white", height:"94vh",minHeight:"100%",justifyContent:"center",textAlign:"center",top:"50",bottom:"50",alignItems:"center",display:"flex",verticalAlign:"middle", fontWeight:"300",flexDirection:"column" }}>
 
 	<h1 className='entertxt' style={{color:"white",justifyContent:"center",textTransform:"uppercase",textAlign:"center",top:"50",bottom:"50",display:"flex",alignItems:"center", fontSize:"500%",verticalAlign:"middle", fontFamily:"Oswald",fontWeight:"300"}}>
   
-  {[welcome]}
+  //{[welcome]}
+		COMING SOON
 </h1>
   <div>
-  <a style={{opacity:"0.5", fontFamily:"Oswald",textTransform:"uppercase",color:"white"}}>*Click anywhere </a>
+  <a style={{opacity:"0.5", fontFamily:"Oswald",textTransform:"uppercase",color:"white"}}>*HAPPY NEW YEAR </a>
   </div>
 
    
 
 	</section>
   <div style={{verticalAlign:"bottom",fontFamily:"Oswald",padding:"2.5vh"}}>
-    <h4 style={{fontFamily:"Oswald",color:"white",textTransform:"uppercase"}}>By <a style={{fontFamily:"Oswald",textTransform:"uppercase",color:"white",fontWeight:"900",}} >Infamous Labs ©2022</a></h4>
+    <h4 style={{fontFamily:"Oswald",color:"white",textTransform:"uppercase"}}>By <a style={{fontFamily:"Oswald",textTransform:"uppercase",color:"white",fontWeight:"900",}} ></a></h4>
   </div>
   </NavbarLink2>
     </div>
