@@ -88,7 +88,7 @@ return (
     <div style={{backgroundColor: "#4158D0",backgroundImage: [gradient],maxHeight:"100vh",minHeight:"fit-screen"
       }}>
       <Helmet><title>Welcome</title>      <link rel="icon" href="https://elysiankids-com.vercel.app/static/media/elysian.7d77471c57d669515068.png" type="image/icon type" /> </Helmet>
-  <NavbarLink2>
+  <NavbarLink2 to="/redirect" onClick={whitepaper}>
 	<section style={{color:"white", height:"94vh",minHeight:"100%",justifyContent:"center",textAlign:"center",top:"50",bottom:"50",alignItems:"center",display:"flex",verticalAlign:"middle", fontWeight:"300",flexDirection:"column" }}>
 
 	<h1 className='entertxt' style={{color:"white",justifyContent:"center",textTransform:"uppercase",textAlign:"center",top:"50",bottom:"50",display:"flex",alignItems:"center", fontSize:"500%",verticalAlign:"middle", fontFamily:"Oswald",fontWeight:"300"}}>
