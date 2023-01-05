@@ -93,18 +93,17 @@ return (
 
 	<h1 className='entertxt' style={{color:"white",justifyContent:"center",textTransform:"uppercase",textAlign:"center",top:"50",bottom:"50",display:"flex",alignItems:"center", fontSize:"500%",verticalAlign:"middle", fontFamily:"Oswald",fontWeight:"300"}}>
   
-  //{[welcome]}
-		COMING SOON
+		{[welcome]}
 </h1>
   <div>
-  <a style={{opacity:"0.5", fontFamily:"Oswald",textTransform:"uppercase",color:"white"}}>*HAPPY NEW YEAR </a>
+  <a style={{opacity:"0.5", fontFamily:"Oswald",textTransform:"uppercase",color:"white"}}>*CLICK ANYWHERE</a>
   </div>
 
    
 
 	</section>
   <div style={{verticalAlign:"bottom",fontFamily:"Oswald",padding:"2.5vh"}}>
-    <h4 style={{fontFamily:"Oswald",color:"white",textTransform:"uppercase"}}>By <a style={{fontFamily:"Oswald",textTransform:"uppercase",color:"white",fontWeight:"900",}} ></a></h4>
+    <h4 style={{fontFamily:"Oswald",color:"white",textTransform:"uppercase"}}>By <a style={{fontFamily:"Oswald",textTransform:"uppercase",color:"white",fontWeight:"900",}} >Infamous Labs 2022</a></h4>
   </div>
   </NavbarLink2>
     </div>
