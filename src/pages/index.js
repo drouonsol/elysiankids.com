@@ -170,6 +170,23 @@ return (
                     </div>
                 </div>
             </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src={[nft0]} alt={nftnumber} />
+                    </div>
+                    <div class="contentBx">
+                        <h4 style={{fontSize:"175%",  fontFamily:"Oswald"}}>CLUBS</h4>
+                        <br/ >
+                        <a className="utilitybutton" target="_blank" href='https://clubs.elysiankids.com'  style={{textTransform:"uppercase", fontFamily:"Oswald"}}>Create your SubDao</a>
+                        <br/>
+                     {/* <h5 className="nftnumber" style={{padding:"15px",fontFamily:"Oswald",}}>Elysian Kid #{[nftnumber]}</h5> */}
+                    </div>
+                    <div class="sci">
+
+                    </div>
+                </div>
+            </div>
             <div class="card"  >
                 <div class="content" >
                     <div class="imgBx">
@@ -200,23 +217,6 @@ return (
                         <a className="utilitybuttonrejected" target="_blank" style={{textTransform:"uppercase", fontFamily:"Oswald"}}>Join a raffle</a>
                         <br/>
                      {/* <h5 className="nftnumber" style={{padding:"15px",fontFamily:"Oswald",}}>Elysian Kid #{[nftnumber4]}</h5> */}
-                    </div>
-                    <div class="sci">
-
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="content">
-                    <div class="imgBx">
-                        <img src={[nft0]} alt={nftnumber} />
-                    </div>
-                    <div class="contentBx">
-                        <h4 style={{fontSize:"175%",  fontFamily:"Oswald"}}>ELEGIBILITY</h4>
-                        <br/ >
-                        <a className="utilitybuttonrejected" target="_blank"  style={{textTransform:"uppercase", fontFamily:"Oswald"}}>Check ELEGIBILITY</a>
-                        <br/>
-                     {/* <h5 className="nftnumber" style={{padding:"15px",fontFamily:"Oswald",}}>Elysian Kid #{[nftnumber]}</h5> */}
                     </div>
                     <div class="sci">
 
